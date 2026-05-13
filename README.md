@@ -30,3 +30,8 @@ In GitHub Pages, the custom domain should be:
 openparcelbox.org
 ```
 
+## Assets
+
+- `assets/openparcelbox-icon.svg`: icon-only mark for favicon/avatar use
+- `assets/openparcelbox-logo-horizontal.svg`: horizontal logo
+- `assets/openparcelbox-social.svg`: social preview / hero preview

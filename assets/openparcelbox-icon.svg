@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">OpenParcelBox icon</title>
+  <desc id="desc">Open parcel box with lock and wireless signal</desc>
+  <rect width="256" height="256" rx="48" fill="#f7f8f5"/>
+  <path d="M70 84 128 50l58 34-58 34-58-34Z" fill="#fff" stroke="#123957" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M70 84v70l58 34v-70L70 84Z" fill="#fff" stroke="#123957" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M128 118v70l58-34V84l-58 34Z" fill="#2aa69a" stroke="#123957" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M70 84 49 42l58-20 21 28" fill="none" stroke="#123957" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M152 137v-13a16 16 0 0 1 32 0v13" fill="none" stroke="#123957" stroke-width="9" stroke-linecap="round"/>
+  <rect x="142" y="134" width="52" height="46" rx="8" fill="#123957"/>
+  <path d="M168 151a8 8 0 0 0-4 15l-5 12h18l-5-12a8 8 0 0 0-4-15Z" fill="#fff"/>
+  <path d="M203 82c17 22 17 58 0 80M222 62c28 36 28 96 0 132" fill="none" stroke="#2aa69a" stroke-width="12" stroke-linecap="round"/>
+</svg>

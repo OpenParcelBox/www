@@ -42,9 +42,18 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 800;
   font-size: 1.05rem;
   text-decoration: none;
+}
+
+.brand img {
+  display: block;
+  width: 34px;
+  height: 34px;
 }
 
 nav {
@@ -72,6 +81,13 @@ main {
 
 .hero {
   padding: clamp(72px, 12vw, 132px) 0 48px;
+}
+
+.hero-mark {
+  display: block;
+  width: clamp(92px, 16vw, 142px);
+  height: auto;
+  margin-bottom: 26px;
 }
 
 .eyebrow {
