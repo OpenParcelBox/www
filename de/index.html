@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OpenParcelBox</title>
-    <meta name="description" content="Offenes Ökosystem für Paketannahme, Nachrüstung vorhandener Paketkästen, offene Schlösser und lokale Zugriffskontrolle.">
+    <meta name="description" content="Offenes Ökosystem für Paketannahme, zur Nachrüstung vorhandener Paketkästen, mit offenen Schlössern und lokaler Zugriffskontrolle.">
     <link rel="canonical" href="https://openparcelbox.org/de/">
     <link rel="alternate" hreflang="en" href="https://openparcelbox.org/">
     <link rel="alternate" hreflang="de" href="https://openparcelbox.org/de/">
     <link rel="alternate" hreflang="x-default" href="https://openparcelbox.org/">
     <meta property="og:title" content="OpenParcelBox">
-    <meta property="og:description" content="Offenes Ökosystem für Paketannahme, Nachrüstung vorhandener Paketkästen und lokale Zugriffskontrolle.">
+    <meta property="og:description" content="Offenes Ökosystem für Paketannahme, zur Nachrüstung vorhandener Paketkästen und mit lokaler Zugriffskontrolle.">
     <meta property="og:image" content="https://openparcelbox.org/assets/openparcelbox-social.png">
     <meta property="og:url" content="https://openparcelbox.org/de/">
     <meta name="twitter:card" content="summary_large_image">
@@ -45,9 +45,9 @@
             <p class="eyebrow">Lokale Infrastruktur für Paketannahme</p>
             <h1>OpenParcelBox</h1>
             <p class="lead">
-              Bestehende Paketkästen, Schränke und Boxen sollen zu offenen,
-              paketdienstneutralen Annahmestationen werden: lokal kontrolliert,
-              reparierbar und mit optionalen Integrationen.
+              OpenParcelBox macht aus vorhandenen Paketkästen, Schränken und Boxen offene,
+              paketdienstneutrale Annahmestationen: lokal steuerbar, reparierbar und
+              erweiterbar.
             </p>
             <div class="hero-proof" aria-label="Projektprinzipien">
               <span>Cloud optional</span>
@@ -63,16 +63,16 @@
           <aside class="hero-panel" aria-label="OpenParcelBox Ökosystem">
             <div class="system-visual">
               <img class="hero-mark" src="/assets/openparcelbox-icon.svg" alt="" width="154" height="154">
-              <div class="node node-device">Device</div>
-              <div class="node node-lock">Lock</div>
+              <div class="node node-device">Gerät</div>
+              <div class="node node-lock">Schloss</div>
               <div class="node node-bridge">Bridge</div>
-              <div class="node node-carrier">Carrier</div>
+              <div class="node node-carrier">Paketdienst</div>
             </div>
             <div class="panel-status">Frühe Spezifikation</div>
             <div class="signal-list" aria-label="Projektbausteine">
               <span>OpenParcelLock</span>
               <span>Öffnungsrechte</span>
-              <span>Self-hosted Bridge</span>
+              <span>Eigene Bridge</span>
               <span>Paketdienst-Adapter</span>
             </div>
           </aside>
@@ -164,7 +164,7 @@
           </article>
           <article>
             <img class="pictogram" src="/assets/pictogram-retrofit.svg" alt="" width="72" height="72">
-            <h2>Retrofit-freundlich</h2>
+            <h2>Einfach nachrüstbar</h2>
             <p>
               Vorhandene Paketkästen, Schränke, Boxen und Garagenlösungen sollen weiter
               nutzbar bleiben statt durch geschlossene Produkte ersetzt zu werden.
@@ -174,17 +174,17 @@
 
         <section class="milestone-booster" aria-label="Milestone 1 DHL Retrofit Beta">
           <div class="booster-copy">
-            <p class="eyebrow">Nächster Start</p>
+            <p class="eyebrow">Nächster Meilenstein</p>
             <div class="milestone-kicker">Milestone 1 / Version 1 Beta</div>
-            <h2>DHL Retrofit Beta</h2>
+            <h2>DHL-Umrüst-Beta</h2>
             <p>
-              Ein vollständig lokales ESP-basiertes Umrüstsystem für einen vorhandenen
+              Ein lokal laufendes ESP-basiertes Umrüstsystem für einen vorhandenen
               DHL-Paketkasten: 4 Haushalte, PIN und NFC, Wiegand-Keypad, Zusteller-PINs,
-              lokales Logging, MQTT, lokale API-Grundlage und OTA-Updates.
+              lokales Protokoll, MQTT, Grundlage für eine lokale API und OTA-Updates.
             </p>
             <div class="actions">
-              <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox/milestone/9">Milestone verfolgen</a>
-              <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/blob/main/docs/roadmap/m1-dhl-retrofit-beta.md">Beta-Scope lesen</a>
+              <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox/milestone/9">Meilenstein ansehen</a>
+              <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/blob/main/docs/roadmap/m1-dhl-retrofit-beta.md">Beta-Ziel lesen</a>
             </div>
           </div>
           <div class="booster-stack" aria-hidden="true">
@@ -211,7 +211,7 @@
             <p>
               Wer ein Produkt als OpenParcelBox-kompatibel oder als offizielle Variante anbieten
               möchte, muss die relevanten Unterlagen offenlegen und im Projekt zur Prüfung
-              bereitstellen. Offizielle Versionen gehören ins Git: dokumentiert, nachvollziehbar
+              bereitstellen. Offizielle Versionen gehören ins Git-Repository: dokumentiert, nachvollziehbar
               und für die Community überprüfbar.
             </p>
           </div>
@@ -219,28 +219,28 @@
             <div><strong>Offene Unterlagen</strong><span>Schaltpläne, Schnittstellen, Pinouts, Protokolle, Montagedaten und Firmware-Änderungen müssen prüfbar sein.</span></div>
             <div><strong>Reparierbare Teile</strong><span>Ersatzteile sollen verfügbar, nachbaubar oder selbst herstellbar sein, zum Beispiel über Standardteile, Spezifikationen oder 3D-Druckdaten.</span></div>
             <div><strong>Keine neue Sackgasse</strong><span>Ein Kasten darf nicht wieder unbrauchbar werden, weil ein Anbieter verschwindet, eine Cloud endet oder ein Ersatzteil fehlt.</span></div>
-            <div><strong>Faires Geschäft</strong><span>Geld verdienen mit Hardware, Fertigung, Support, Montage, Service, Cloud-Komfort und Integration, nicht mit Lock-in.</span></div>
+            <div><strong>Fair Geld verdienen</strong><span>Mit Hardware, Fertigung, Support, Montage, Service, Cloud-Komfort und Integration, nicht mit Lock-in.</span></div>
           </div>
         </section>
 
         <section class="section">
           <p class="eyebrow">Ökosystem-Bausteine</p>
-          <h2>Nicht eine Box. Ein Satz offener Teile.</h2>
+          <h2>Keine einzelne Box. Ein Satz offener Bausteine.</h2>
           <div class="cards">
             <a class="card" href="https://github.com/OpenParcelBox/openparcelbox">
               <img class="pictogram" src="/assets/pictogram-core.svg" alt="" width="72" height="72">
               <span>OpenParcelBox Core</span>
-              <p>Hardware-/Backplane-Konzept für Strom, Ports, Sensoren, Schlösser und Erweiterungen.</p>
+              <p>Hardware- und Backplane-Konzept für Strom, Ports, Sensoren, Schlösser und Erweiterungen.</p>
             </a>
             <a class="card" href="https://github.com/OpenParcelBox/openparcellock">
               <img class="pictogram" src="/assets/pictogram-lock.svg" alt="" width="72" height="72">
               <span>OpenParcelLock</span>
-              <p>Offenes Schlossmodul und Schnittstellenprofil für Paketkästen und Retrofit-Aufbauten.</p>
+              <p>Offenes Schlossmodul und Schnittstellenprofil für Paketkästen und Nachrüstlösungen.</p>
             </a>
             <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/2">
               <img class="pictogram" src="/assets/pictogram-rights.svg" alt="" width="72" height="72">
               <span>Öffnungsrechte</span>
-              <p>Lokales Access-Control-Modell für Zustellung, Entnahme und spätere Paketdienst-Integrationen.</p>
+              <p>Lokales Berechtigungsmodell für Zustellung, Entnahme und spätere Paketdienst-Integrationen.</p>
             </a>
             <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/8">
               <img class="pictogram" src="/assets/pictogram-adapter.svg" alt="" width="72" height="72">
@@ -252,8 +252,8 @@
 
         <section class="journey" aria-label="Zugriffsablauf">
           <div class="journey-intro">
-            <p class="eyebrow">Access Flow</p>
-            <h2>Ein Recht. Viele Darstellungen.</h2>
+            <p class="eyebrow">Zugriffsablauf</p>
+            <h2>Ein Öffnungsrecht. Viele Wege.</h2>
             <p>
               OpenParcelBox modelliert Zugriff als Öffnungsrecht. Daraus kann ein PIN,
               QR-Code, signierter Token, App-Befehl oder später eine Paketdienst-Freigabe werden.
@@ -261,20 +261,20 @@
           </div>
           <div class="steps">
             <div class="step"><span>01</span><strong>Erstellen</strong><p>Eine begrenzte Einlegeberechtigung erzeugen.</p></div>
-            <div class="step"><span>02</span><strong>Darstellen</strong><p>Als PIN, QR oder Token ausgeben.</p></div>
-            <div class="step"><span>03</span><strong>Prüfen</strong><p>Lokal validieren, auch offline.</p></div>
-            <div class="step"><span>04</span><strong>Protokollieren</strong><p>Ereignis loggen, ohne rohe Geheimnisse zu speichern.</p></div>
+            <div class="step"><span>02</span><strong>Ausgeben</strong><p>Als PIN, QR-Code oder Token bereitstellen.</p></div>
+            <div class="step"><span>03</span><strong>Prüfen</strong><p>Lokal prüfen, auch offline.</p></div>
+            <div class="step"><span>04</span><strong>Protokollieren</strong><p>Ereignis erfassen, ohne rohe Geheimnisse zu speichern.</p></div>
           </div>
         </section>
 
         <section class="section split feature-split">
           <div>
-            <p class="eyebrow">Standard-orientiert</p>
-            <h2>Gebaut um öffentliche Interoperabilitätsziele.</h2>
+            <p class="eyebrow">An Standards orientiert</p>
+            <h2>An öffentlichen Interoperabilitätszielen ausgerichtet.</h2>
             <p>
               OpenParcelBox nutzt CEN/TS 17457:2020 als wichtige Referenz für interoperable
               digitale Öffnungs- und Schließsysteme für Paketannahme zu Hause. Öffentliche
-              Doku kopiert keine geschützten Normtexte.
+              Dokumentation kopiert keine geschützten Normtexte.
             </p>
           </div>
           <div>
@@ -292,12 +292,12 @@
           <h2>Mitmachen</h2>
           <p>
             Das Projekt sammelt gerade Anforderungen, Recherche, Architekturentscheidungen
-            und reale Retrofit-Szenarien. Nutze GitHub Discussions für offene Fragen und Issues
+            und reale Nachrüstszenarien. Nutze GitHub Discussions für offene Fragen und Issues
             für konkrete Aufgaben.
           </p>
           <div class="link-list">
             <a href="https://github.com/OpenParcelBox/openparcelbox">Haupt-Repository</a>
-            <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Offene Issues</a>
+            <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Offene Aufgaben</a>
             <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
             <a href="/de/community/">Community-Aufruf</a>
             <a href="https://github.com/OpenParcelBox/openparcellock">OpenParcelLock</a>
@@ -307,7 +307,7 @@
 
       <footer>
         <p>
-          OpenParcelBox ist Open Source und local-first. Die optionale Cloud ist Komfort,
+          OpenParcelBox ist Open Source und lokal gedacht. Die optionale Cloud ist Komfort,
           keine Voraussetzung.
         </p>
       </footer>
