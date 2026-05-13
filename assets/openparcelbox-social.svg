@@ -2,8 +2,10 @@
   <title id="title">OpenParcelBox social preview</title>
   <desc id="desc">OpenParcelBox social preview with parcel box, lock and project tagline</desc>
   <rect width="1200" height="630" fill="#f7f8f5"/>
-  <circle cx="950" cy="124" r="210" fill="#e7f2ee"/>
-  <circle cx="180" cy="520" r="160" fill="#edf1ea"/>
+  <path d="M0 0h1200v170L0 360Z" fill="#ecf4f0"/>
+  <path d="M1200 630H0V500l1200-210Z" fill="#eef0f8"/>
+  <path d="M80 92h1040M80 132h1040M80 172h1040M80 212h1040" stroke="#d3e1dc" stroke-width="2" opacity=".7"/>
+  <path d="M88 92 42 568M188 92l-46 476M288 92l-46 476M388 92l-46 476M488 92l-46 476M588 92l-46 476M688 92l-46 476M788 92l-46 476M888 92l-46 476M988 92l-46 476M1088 92l-46 476" stroke="#dfe6ee" stroke-width="2" opacity=".72"/>
   <g transform="translate(410 56) scale(1.45)">
     <path d="M70 84 128 50l58 34-58 34-58-34Z" fill="#fff" stroke="#123957" stroke-width="10" stroke-linejoin="round"/>
     <path d="M70 84v70l58 34v-70L70 84Z" fill="#fff" stroke="#123957" stroke-width="10" stroke-linejoin="round"/>

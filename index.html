@@ -32,23 +32,34 @@
       <main>
         <section class="hero">
           <div class="hero-copy">
-            <p class="eyebrow">Open ecosystem for smart parcel delivery</p>
+            <p class="eyebrow">Local-first parcel access infrastructure</p>
             <h1>OpenParcelBox</h1>
             <p class="lead">
-              Retrofit existing parcel boxes into local-first, carrier-neutral delivery
-              infrastructure with open locks, self-hosting and optional integrations.
+              Turn existing boxes, cabinets and lockers into open, carrier-neutral parcel
+              drop-off infrastructure with local control, open locks and optional integrations.
             </p>
+            <div class="hero-proof" aria-label="Project principles">
+              <span>Cloud optional</span>
+              <span>Home Assistant optional</span>
+              <span>Carrier-neutral</span>
+            </div>
             <div class="actions">
               <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox">View project</a>
               <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/discussions">Join discussions</a>
             </div>
           </div>
           <aside class="hero-panel" aria-label="OpenParcelBox ecosystem summary">
-            <img class="hero-mark" src="/assets/openparcelbox-icon.svg" alt="" width="154" height="154">
+            <div class="system-visual">
+              <img class="hero-mark" src="/assets/openparcelbox-icon.svg" alt="" width="154" height="154">
+              <div class="node node-device">Device</div>
+              <div class="node node-lock">Lock</div>
+              <div class="node node-bridge">Bridge</div>
+              <div class="node node-carrier">Carrier</div>
+            </div>
             <div class="panel-status">Early specification</div>
-            <div class="signal-list">
-              <span>Local-first device</span>
+            <div class="signal-list" aria-label="Core project building blocks">
               <span>OpenParcelLock</span>
+              <span>Opening rights</span>
               <span>Self-hosted bridge</span>
               <span>Carrier adapters</span>
             </div>
@@ -61,71 +72,133 @@
           firmware or security guarantees exist yet.
         </section>
 
-      <section class="grid">
-        <article>
-          <h2>Local first</h2>
-          <p>
-            The device must keep its basic local function without internet, cloud
-            services or Home Assistant.
-          </p>
-        </article>
-        <article>
-          <h2>Carrier neutral</h2>
-          <p>
-            Carrier integrations should be optional plugins. OpenParcelBox must not
-            become DHL-only, cloud-only or tied to one proprietary backend.
-          </p>
-        </article>
-        <article>
-          <h2>Retrofit friendly</h2>
-          <p>
-            Existing parcel boxes, cabinets, lockers and garage boxes should remain useful
-            instead of being replaced by a closed product.
-          </p>
-        </article>
-      </section>
+        <section class="vision-band" aria-label="OpenParcelBox vision">
+          <div class="vision-copy">
+            <p class="eyebrow">Why it exists</p>
+            <h2>Smart parcel access should not die with a vendor cloud.</h2>
+            <p>
+              OpenParcelBox starts from the opposite assumption: the box remains useful,
+              the lock is replaceable, the rules are auditable and the owner keeps local control.
+            </p>
+          </div>
+          <div class="vision-metrics">
+            <div><strong>01</strong><span>Retrofit first</span></div>
+            <div><strong>02</strong><span>Open lock profiles</span></div>
+            <div><strong>03</strong><span>Optional cloud</span></div>
+          </div>
+        </section>
+
+        <section class="origin" aria-label="Project origin">
+          <div class="origin-date">
+            <span>March 2025</span>
+            <strong>The trigger</strong>
+          </div>
+          <div>
+            <p class="eyebrow">Project origin</p>
+            <h2>A shutdown letter turned into an open infrastructure idea.</h2>
+            <p>
+              When DHL announced that electronic access to older DHL parcel boxes would end
+              on 15 May 2025, many still-useful boxes were pushed toward manual retrofits.
+              OpenParcelBox starts from that moment: existing parcel receptacles should stay
+              useful, repairable and open to every carrier instead of depending on one vendor's
+              electronics, spare parts or backend.
+            </p>
+          </div>
+        </section>
+
+        <section class="grid">
+          <article>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 18 24 10l12 8v18H12V18Z"/><path d="M20 36V25h8v11"/></svg>
+            <h2>Local first</h2>
+            <p>
+              The device must keep its basic local function without internet, cloud
+              services or Home Assistant.
+            </p>
+          </article>
+          <article>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 24h28"/><path d="m28 14 10 10-10 10"/><path d="M10 12h12M10 36h12"/></svg>
+            <h2>Carrier neutral</h2>
+            <p>
+              Carrier integrations should be optional plugins, never a single-vendor
+              dependency or hidden lock-in path.
+            </p>
+          </article>
+          <article>
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 15h24v24H12z"/><path d="M17 15V9h14v6"/><path d="M18 27h12"/><path d="M24 21v12"/></svg>
+            <h2>Retrofit friendly</h2>
+            <p>
+              Existing parcel boxes, cabinets, lockers and garage boxes should remain useful
+              instead of being replaced by a closed product.
+            </p>
+          </article>
+        </section>
 
       <section class="section">
-        <h2>Planned building blocks</h2>
+        <p class="eyebrow">Ecosystem building blocks</p>
+        <h2>Not one box. A set of open parts.</h2>
         <div class="cards">
           <a class="card" href="https://github.com/OpenParcelBox/openparcelbox">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 15h30v20H9z"/><path d="M15 21h18M15 29h10"/><path d="M19 9v6M29 9v6"/></svg>
             <span>OpenParcelBox Core</span>
             <p>Hardware/backplane concept for power, ports, sensors, locks and expansion.</p>
           </a>
           <a class="card" href="https://github.com/OpenParcelBox/openparcellock">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="21" width="22" height="18" rx="3"/><path d="M18 21v-5a6 6 0 0 1 12 0v5"/></svg>
             <span>OpenParcelLock</span>
             <p>Open lock module and interface profile for parcel boxes and retrofit setups.</p>
           </a>
           <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/2">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 24a14 14 0 1 0 28 0 14 14 0 0 0-28 0Z"/><path d="M24 16v9l6 4"/></svg>
             <span>Opening rights</span>
             <p>Local-first access-control model for delivery, pickup and carrier integrations.</p>
           </a>
           <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/8">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 28h8l5-8h8l5 8h6"/><path d="M12 34h24"/><path d="M14 20h4M30 20h4"/></svg>
             <span>Carrier adapters</span>
             <p>Optional adapter layer for future carrier workflows and dynamic delivery rights.</p>
           </a>
         </div>
       </section>
 
-      <section class="section split">
-        <div>
-          <h2>Standards-oriented</h2>
-          <p>
-            OpenParcelBox uses CEN/TS 17457:2020 as an important reference for
-            interoperable digital opening and closing systems for home-use parcel receptacles.
-            Public documentation avoids copying protected standards text.
-          </p>
-        </div>
-        <div>
-          <h2>Optional integrations</h2>
-          <p>
-            MQTT, Home Assistant, HomeMatic, Matter, webhooks, LoRa/LoRaWAN and cloud services
-            are integration paths, not prerequisites for local operation.
-          </p>
-        </div>
-      </section>
+        <section class="journey" aria-label="Parcel access flow">
+          <div class="journey-intro">
+            <p class="eyebrow">Access flow</p>
+            <h2>One right. Many ways to present it.</h2>
+            <p>
+              OpenParcelBox models access as an opening right that can become a PIN, QR code,
+              signed token, app action or future carrier grant.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step"><span>01</span><strong>Issue</strong><p>Create a scoped deposit-only right.</p></div>
+            <div class="step"><span>02</span><strong>Present</strong><p>Render it as PIN, QR or token.</p></div>
+            <div class="step"><span>03</span><strong>Validate</strong><p>Check locally, even offline.</p></div>
+            <div class="step"><span>04</span><strong>Audit</strong><p>Log the event without raw secrets.</p></div>
+          </div>
+        </section>
+
+        <section class="section split feature-split">
+          <div>
+            <p class="eyebrow">Standards-oriented</p>
+            <h2>Built around public interoperability goals.</h2>
+            <p>
+              OpenParcelBox uses CEN/TS 17457:2020 as an important reference for
+              interoperable digital opening and closing systems for home-use parcel receptacles.
+              Public documentation avoids copying protected standards text.
+            </p>
+          </div>
+          <div>
+            <p class="eyebrow">Optional integrations</p>
+            <h2>Smart home is welcome, never required.</h2>
+            <p>
+              MQTT, Home Assistant, HomeMatic, Matter, webhooks, LoRa/LoRaWAN and cloud services
+              are integration paths, not prerequisites for local operation.
+            </p>
+          </div>
+        </section>
 
       <section class="section">
+        <p class="eyebrow">Community</p>
         <h2>Get involved</h2>
         <p>
           The project is currently collecting requirements, research, architecture decisions
