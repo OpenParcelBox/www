@@ -455,6 +455,31 @@ p {
   color: var(--muted);
 }
 
+.origin-points {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.origin-points div {
+  padding: 18px;
+  border: 1px solid rgba(7, 27, 34, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.origin-points strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.origin-points p {
+  font-size: 0.98rem;
+}
+
 .grid p,
 .section p,
 .card p,
@@ -666,6 +691,7 @@ footer {
   .split,
   .vision-band,
   .origin,
+  .origin-points,
   .journey {
     grid-template-columns: 1fr;
   }
