@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Opening rights pictogram">
+  <rect width="96" height="96" rx="18" fill="#f0fbff"/>
+  <path d="M48 20a28 28 0 1 0 0 56 28 28 0 0 0 0-56Z" fill="#fff" stroke="#2457ff" stroke-width="5"/>
+  <path d="M48 34v17l12 8" fill="none" stroke="#063c45" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 25 21 19M75 77l-6-6" stroke="#16a394" stroke-width="6" stroke-linecap="round"/>
+</svg>

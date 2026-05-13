@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Carrier-neutral access pictogram">
+  <rect width="96" height="96" rx="18" fill="#edf1ff"/>
+  <path d="M20 48h42" stroke="#2457ff" stroke-width="7" stroke-linecap="round"/>
+  <path d="m55 32 17 16-17 16" fill="none" stroke="#2457ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 25h20M22 71h20" stroke="#16a394" stroke-width="7" stroke-linecap="round"/>
+  <rect x="62" y="18" width="16" height="16" rx="4" fill="#ffb545"/>
+  <rect x="62" y="62" width="16" height="16" rx="4" fill="#063c45"/>
+</svg>
