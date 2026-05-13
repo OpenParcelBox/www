@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenParcelBox</title>
+    <meta name="description" content="Open ecosystem for smart parcel delivery infrastructure, retrofit parcel boxes, open locks and self-hosted access control.">
+    <link rel="canonical" href="https://openparcelbox.org/">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">OpenParcelBox</a>
+      <nav aria-label="Main navigation">
+        <a href="https://github.com/OpenParcelBox/openparcelbox">GitHub</a>
+        <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Issues</a>
+        <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
+        <a href="https://github.com/OpenParcelBox/openparcellock">OpenParcelLock</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Open ecosystem for smart parcel delivery</p>
+        <h1>OpenParcelBox</h1>
+        <p class="lead">
+          An open ecosystem for smart parcel delivery infrastructure, retrofit parcel boxes,
+          open lock modules and self-hosted access control.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox">View project</a>
+          <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/discussions">Join discussions</a>
+        </div>
+      </section>
+
+      <section class="notice">
+        <strong>Project status:</strong>
+        OpenParcelBox is in early planning and specification. No production hardware,
+        firmware or security guarantees exist yet.
+      </section>
+
+      <section class="grid">
+        <article>
+          <h2>Local first</h2>
+          <p>
+            The device must keep its basic local function without internet, cloud
+            services or Home Assistant.
+          </p>
+        </article>
+        <article>
+          <h2>Carrier neutral</h2>
+          <p>
+            Carrier integrations should be optional plugins. OpenParcelBox must not
+            become DHL-only, cloud-only or tied to one proprietary backend.
+          </p>
+        </article>
+        <article>
+          <h2>Retrofit friendly</h2>
+          <p>
+            Existing parcel boxes, cabinets, lockers and garage boxes should remain useful
+            instead of being replaced by a closed product.
+          </p>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Planned building blocks</h2>
+        <div class="cards">
+          <a class="card" href="https://github.com/OpenParcelBox/openparcelbox">
+            <span>OpenParcelBox Core</span>
+            <p>Hardware/backplane concept for power, ports, sensors, locks and expansion.</p>
+          </a>
+          <a class="card" href="https://github.com/OpenParcelBox/openparcellock">
+            <span>OpenParcelLock</span>
+            <p>Open lock module and interface profile for parcel boxes and retrofit setups.</p>
+          </a>
+          <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/2">
+            <span>Opening rights</span>
+            <p>Local-first access-control model for delivery, pickup and carrier integrations.</p>
+          </a>
+          <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/8">
+            <span>Carrier adapters</span>
+            <p>Optional adapter layer for future carrier workflows and dynamic delivery rights.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <h2>Standards-oriented</h2>
+          <p>
+            OpenParcelBox uses CEN/TS 17457:2020 as an important reference for
+            interoperable digital opening and closing systems for home-use parcel receptacles.
+            Public documentation avoids copying protected standards text.
+          </p>
+        </div>
+        <div>
+          <h2>Optional integrations</h2>
+          <p>
+            MQTT, Home Assistant, HomeMatic, Matter, webhooks, LoRa/LoRaWAN and cloud services
+            are integration paths, not prerequisites for local operation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Get involved</h2>
+        <p>
+          The project is currently collecting requirements, research, architecture decisions
+          and retrofit scenarios. Use GitHub Discussions for open questions and Issues for
+          concrete tasks.
+        </p>
+        <div class="link-list">
+          <a href="https://github.com/OpenParcelBox/openparcelbox">Main repository</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Open issues</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
+          <a href="https://github.com/OpenParcelBox/openparcellock">OpenParcelLock</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        OpenParcelBox is open source and local-first. The optional cloud is a convenience
+        service, not a requirement.
+      </p>
+    </footer>
+  </body>
+</html>
