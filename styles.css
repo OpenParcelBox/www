@@ -495,6 +495,68 @@ p {
   font-size: 0.98rem;
 }
 
+.vendor-pact {
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(360px, 0.68fr);
+  gap: 32px;
+  align-items: stretch;
+  margin: 0 clamp(10px, 3vw, 34px) 58px;
+  padding: clamp(30px, 5vw, 52px);
+  border: 1px solid rgba(7, 27, 34, 0.12);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(255, 181, 69, 0.24), transparent 32%),
+    linear-gradient(160deg, rgba(36, 87, 255, 0.13), transparent 48%),
+    rgba(255, 255, 255, 0.74);
+  box-shadow: var(--shadow);
+}
+
+.vendor-pact h2 {
+  max-width: 820px;
+  font-size: clamp(2.2rem, 5vw, 4.6rem);
+}
+
+.vendor-pact p:not(.eyebrow) {
+  max-width: 760px;
+  color: rgba(7, 27, 34, 0.72);
+  font-size: 1.18rem;
+}
+
+.pact-list {
+  display: grid;
+  gap: 12px;
+}
+
+.pact-list div {
+  position: relative;
+  overflow: hidden;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 14px 34px rgba(7, 27, 34, 0.08);
+}
+
+.pact-list div::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 5px;
+  background: linear-gradient(180deg, var(--accent-dark), var(--accent), var(--accent-3));
+}
+
+.pact-list strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.pact-list span {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+}
+
 .grid p,
 .section p,
 .card p,
@@ -626,6 +688,7 @@ footer {
 @supports (animation-timeline: view()) {
   .vision-band,
   .origin,
+  .vendor-pact,
   .grid article,
   .step,
   .feature-split > div {
@@ -718,6 +781,7 @@ footer {
   .split,
   .vision-band,
   .origin,
+  .vendor-pact,
   .origin-points,
   .journey {
     grid-template-columns: 1fr;
