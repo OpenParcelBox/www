@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OpenParcelBox</title>
+    <meta name="description" content="Offenes Ökosystem für smarte Paketannahme, Nachrüstung vorhandener Paketkästen, offene Schlösser und lokale Zugriffskontrolle.">
+    <link rel="canonical" href="https://openparcelbox.org/de/">
+    <link rel="alternate" hreflang="en" href="https://openparcelbox.org/">
+    <link rel="alternate" hreflang="de" href="https://openparcelbox.org/de/">
+    <link rel="alternate" hreflang="x-default" href="https://openparcelbox.org/">
+    <meta property="og:title" content="OpenParcelBox">
+    <meta property="og:description" content="Offenes Ökosystem für smarte Paketannahme, Retrofit-Paketkästen und lokale Zugriffskontrolle.">
+    <meta property="og:image" content="https://openparcelbox.org/assets/openparcelbox-social.png">
+    <meta property="og:url" content="https://openparcelbox.org/de/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/openparcelbox-icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/assets/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <a class="brand" href="/de/" aria-label="OpenParcelBox Startseite">
+          <img src="/assets/openparcelbox-icon.svg" alt="" width="34" height="34">
+          <span>OpenParcelBox</span>
+        </a>
+        <nav aria-label="Hauptnavigation">
+          <a href="https://github.com/OpenParcelBox/openparcelbox">GitHub</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Issues</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
+          <a href="/de/community/">Community</a>
+          <a href="https://github.com/OpenParcelBox/openparcellock">OpenParcelLock</a>
+          <a class="language-link" href="/" lang="en">English</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Lokale Paket-Zugriffsinfrastruktur</p>
+            <h1>OpenParcelBox</h1>
+            <p class="lead">
+              Bestehende Paketkästen, Schränke und Boxen sollen zu offenen,
+              paketdienstneutralen Annahmestationen werden: lokal kontrolliert,
+              reparierbar und mit optionalen Integrationen.
+            </p>
+            <div class="hero-proof" aria-label="Projektprinzipien">
+              <span>Cloud optional</span>
+              <span>Home Assistant optional</span>
+              <span>Paketdienstneutral</span>
+            </div>
+            <div class="actions">
+              <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox">Projekt ansehen</a>
+              <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/discussions">Mitdiskutieren</a>
+              <a class="button" href="/de/community/">Mitbauen</a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="OpenParcelBox Ökosystem">
+            <div class="system-visual">
+              <img class="hero-mark" src="/assets/openparcelbox-icon.svg" alt="" width="154" height="154">
+              <div class="node node-device">Device</div>
+              <div class="node node-lock">Lock</div>
+              <div class="node node-bridge">Bridge</div>
+              <div class="node node-carrier">Carrier</div>
+            </div>
+            <div class="panel-status">Frühe Spezifikation</div>
+            <div class="signal-list" aria-label="Projektbausteine">
+              <span>OpenParcelLock</span>
+              <span>Öffnungsrechte</span>
+              <span>Self-hosted Bridge</span>
+              <span>Carrier-Adapter</span>
+            </div>
+          </aside>
+        </section>
+
+        <section class="notice">
+          <strong>Projektstatus:</strong>
+          OpenParcelBox ist in der frühen Planungs- und Spezifikationsphase. Es gibt noch keine
+          produktionsreife Hardware, Firmware oder Sicherheitsgarantien.
+        </section>
+
+        <section class="vision-band" aria-label="OpenParcelBox Vision">
+          <div class="vision-copy">
+            <p class="eyebrow">Warum es das gibt</p>
+            <h2>Smarte Paketannahme darf nicht mit einer Hersteller-Cloud sterben.</h2>
+            <p>
+              OpenParcelBox startet mit der gegenteiligen Annahme: Die Box bleibt nützlich,
+              das Schloss ist austauschbar, die Regeln sind prüfbar und der Besitzer behält
+              lokale Kontrolle.
+            </p>
+          </div>
+          <div class="vision-metrics">
+            <div><strong>01</strong><span>Retrofit zuerst</span></div>
+            <div><strong>02</strong><span>Offene Schlossprofile</span></div>
+            <div><strong>03</strong><span>Optionale Cloud</span></div>
+          </div>
+        </section>
+
+        <section class="origin" aria-label="Projektursprung">
+          <div class="origin-date">
+            <span>März 2025</span>
+            <strong>Der Auslöser</strong>
+          </div>
+          <div>
+            <p class="eyebrow">Projektursprung</p>
+            <h2>Die offizielle Lösung war ein Zahlenschloss. Das sagt viel.</h2>
+            <p>
+              Als DHL ankündigte, ältere elektronische DHL-Paketkästen ab dem 15. Mai 2025
+              nicht mehr elektronisch zu bedienen, wurde die Hardware nicht plötzlich nutzlos.
+              Das geschlossene Zugriffssystem wurde nutzlos. Der pragmatische offizielle Rat:
+              wieder manuell machen, Zahlenschloss oder Riegel montieren und den Code in den
+              Angaben zum alternativen Ablageort hinterlegen.
+            </p>
+            <div class="origin-points">
+              <div>
+                <strong>Der freche Teil</strong>
+                <p>
+                  Dieser Workaround macht aus einer ehemals DHL-exklusiven smarten Box
+                  versehentlich etwas, das jeder Paketdienst verstehen kann: öffne diesen
+                  Behälter mit diesem Recht, unter diesen Bedingungen.
+                </p>
+              </div>
+              <div>
+                <strong>Der ernste Teil</strong>
+                <p>
+                  Ein handschriftlicher Code ist keine Plattform. OpenParcelBox versucht,
+                  diese Idee sicher, prüfbar, lokal und paketdienstneutral weiterzudenken.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid">
+          <article>
+            <img class="pictogram" src="/assets/pictogram-local.svg" alt="" width="72" height="72">
+            <h2>Lokal zuerst</h2>
+            <p>
+              Das Gerät muss seine Grundfunktion ohne Internet, Cloud-Dienste oder
+              Home Assistant behalten.
+            </p>
+          </article>
+          <article>
+            <img class="pictogram" src="/assets/pictogram-carrier.svg" alt="" width="72" height="72">
+            <h2>Paketdienstneutral</h2>
+            <p>
+              Paketdienst-Integrationen sollen optionale Plugins sein, keine Abhängigkeit
+              von einem einzelnen Anbieter.
+            </p>
+          </article>
+          <article>
+            <img class="pictogram" src="/assets/pictogram-retrofit.svg" alt="" width="72" height="72">
+            <h2>Retrofit-freundlich</h2>
+            <p>
+              Vorhandene Paketkästen, Schränke, Boxen und Garagenlösungen sollen weiter
+              nutzbar bleiben statt durch geschlossene Produkte ersetzt zu werden.
+            </p>
+          </article>
+        </section>
+
+        <section class="vendor-pact" aria-label="OpenParcelBox Herstellerprinzip">
+          <div>
+            <p class="eyebrow">Für Hersteller</p>
+            <h2>Verkauft die Box. Sperrt den Nutzer nicht ein.</h2>
+            <p>
+              Kommerzielle Produkte sind willkommen. Fertige Umrüstsets, Schlösser und
+              Paketboxen dürfen entstehen. Offizielle OpenParcelBox-Kompatibilität soll aber
+              reparierbare, dokumentierte und interoperable Hardware bedeuten, nicht den
+              nächsten Sackgassenmoment, wenn eine Cloud, ein Ersatzteil oder ein privates
+              Protokoll verschwindet.
+            </p>
+          </div>
+          <div class="pact-list" aria-label="Herstellerprinzipien">
+            <div><strong>Offene Schnittstellen</strong><span>Pinouts, Ports, Profile und APIs müssen dokumentiert sein.</span></div>
+            <div><strong>Reparierbare Teile</strong><span>Kritische Ersatzteile brauchen klare Spezifikationen, Quellen oder Nachbauwege.</span></div>
+            <div><strong>Keine Cloud-Pflicht</strong><span>Die lokale Grundfunktion muss ohne Abo und Internet überleben.</span></div>
+            <div><strong>Faires Geschäft</strong><span>Geld verdienen mit Produkt, Support, Service und Qualität, nicht mit Lock-in.</span></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="eyebrow">Ökosystem-Bausteine</p>
+          <h2>Nicht eine Box. Ein Satz offener Teile.</h2>
+          <div class="cards">
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox">
+              <img class="pictogram" src="/assets/pictogram-core.svg" alt="" width="72" height="72">
+              <span>OpenParcelBox Core</span>
+              <p>Hardware-/Backplane-Konzept für Strom, Ports, Sensoren, Schlösser und Erweiterungen.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcellock">
+              <img class="pictogram" src="/assets/pictogram-lock.svg" alt="" width="72" height="72">
+              <span>OpenParcelLock</span>
+              <p>Offenes Schlossmodul und Schnittstellenprofil für Paketkästen und Retrofit-Aufbauten.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/2">
+              <img class="pictogram" src="/assets/pictogram-rights.svg" alt="" width="72" height="72">
+              <span>Öffnungsrechte</span>
+              <p>Lokales Access-Control-Modell für Zustellung, Entnahme und spätere Paketdienst-Integrationen.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/8">
+              <img class="pictogram" src="/assets/pictogram-adapter.svg" alt="" width="72" height="72">
+              <span>Carrier-Adapter</span>
+              <p>Optionale Adapterebene für zukünftige Paketdienst-Workflows und dynamische Zustellrechte.</p>
+            </a>
+          </div>
+        </section>
+
+        <section class="journey" aria-label="Zugriffsablauf">
+          <div class="journey-intro">
+            <p class="eyebrow">Access Flow</p>
+            <h2>Ein Recht. Viele Darstellungen.</h2>
+            <p>
+              OpenParcelBox modelliert Zugriff als Öffnungsrecht. Daraus kann ein PIN,
+              QR-Code, signierter Token, App-Befehl oder später eine Paketdienst-Freigabe werden.
+            </p>
+          </div>
+          <div class="steps">
+            <div class="step"><span>01</span><strong>Erstellen</strong><p>Ein begrenztes Einlege-Recht erzeugen.</p></div>
+            <div class="step"><span>02</span><strong>Darstellen</strong><p>Als PIN, QR oder Token ausgeben.</p></div>
+            <div class="step"><span>03</span><strong>Prüfen</strong><p>Lokal validieren, auch offline.</p></div>
+            <div class="step"><span>04</span><strong>Protokollieren</strong><p>Ereignis loggen, ohne rohe Geheimnisse zu speichern.</p></div>
+          </div>
+        </section>
+
+        <section class="section split feature-split">
+          <div>
+            <p class="eyebrow">Standard-orientiert</p>
+            <h2>Gebaut um öffentliche Interoperabilitätsziele.</h2>
+            <p>
+              OpenParcelBox nutzt CEN/TS 17457:2020 als wichtige Referenz für interoperable
+              digitale Öffnungs- und Schließsysteme für Paketannahme zu Hause. Öffentliche
+              Doku kopiert keine geschützten Normtexte.
+            </p>
+          </div>
+          <div>
+            <p class="eyebrow">Optionale Integrationen</p>
+            <h2>Smart Home ist willkommen, aber nie Voraussetzung.</h2>
+            <p>
+              MQTT, Home Assistant, HomeMatic, Matter, Webhooks, LoRa/LoRaWAN und Cloud-Dienste
+              sind Integrationspfade, keine Voraussetzung für lokalen Betrieb.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <p class="eyebrow">Community</p>
+          <h2>Mitmachen</h2>
+          <p>
+            Das Projekt sammelt gerade Anforderungen, Recherche, Architekturentscheidungen
+            und reale Retrofit-Szenarien. Nutze GitHub Discussions für offene Fragen und Issues
+            für konkrete Aufgaben.
+          </p>
+          <div class="link-list">
+            <a href="https://github.com/OpenParcelBox/openparcelbox">Haupt-Repository</a>
+            <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Offene Issues</a>
+            <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
+            <a href="/de/community/">Community-Aufruf</a>
+            <a href="https://github.com/OpenParcelBox/openparcellock">OpenParcelLock</a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          OpenParcelBox ist Open Source und local-first. Die optionale Cloud ist Komfort,
+          keine Voraussetzung.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
