@@ -83,8 +83,8 @@ a {
 
 .brand img {
   display: block;
-  width: 34px;
-  height: 34px;
+  width: 38px;
+  height: auto;
 }
 
 nav {
