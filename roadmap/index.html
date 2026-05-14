@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roadmap | OpenParcelBox</title>
+    <meta name="description" content="OpenParcelBox roadmap: current beta target, milestones and project planning links.">
+    <link rel="canonical" href="https://openparcelbox.org/roadmap/">
+    <link rel="alternate" hreflang="en" href="https://openparcelbox.org/roadmap/">
+    <link rel="alternate" hreflang="de" href="https://openparcelbox.org/de/roadmap/">
+    <meta property="og:title" content="OpenParcelBox Roadmap">
+    <meta property="og:description" content="Current roadmap and first beta target for OpenParcelBox.">
+    <meta property="og:image" content="https://openparcelbox.org/assets/openparcelbox-social.png">
+    <meta property="og:url" content="https://openparcelbox.org/roadmap/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/openparcelbox-icon.svg" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/assets/favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <a class="brand" href="/" aria-label="OpenParcelBox home">
+          <img src="/assets/openparcelbox-icon.svg" alt="" width="34" height="34">
+          <span>OpenParcelBox</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox">GitHub</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/issues">Issues</a>
+          <a href="https://github.com/OpenParcelBox/openparcelbox/discussions">Discussions</a>
+          <a href="/roadmap/">Roadmap</a>
+          <a href="/community/">Community</a>
+          <a class="language-link" href="/de/roadmap/" lang="de">Deutsch</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Project roadmap</p>
+            <h1>From retrofit beta to open infrastructure.</h1>
+            <p class="lead">
+              OpenParcelBox starts with a concrete standalone retrofit for existing DHL parcel
+              boxes, then grows into an open ecosystem for locks, bridges, integrations and
+              community parcel infrastructure.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="https://github.com/OpenParcelBox/openparcelbox/milestone/9">Track M1 on GitHub</a>
+              <a class="button" href="https://github.com/OpenParcelBox/openparcelbox/blob/main/docs/roadmap/m1-dhl-retrofit-beta.md">Read M1 scope</a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="Current roadmap focus">
+            <div class="panel-status">Current focus</div>
+            <div class="booster-ring">M1</div>
+            <div class="signal-list" aria-label="Milestone 1 components">
+              <span>DHL retrofit</span>
+              <span>ESP controller</span>
+              <span>Wiegand keypad</span>
+              <span>NFC</span>
+              <span>MQTT/API basis</span>
+            </div>
+          </aside>
+        </section>
+
+        <section class="notice">
+          <strong>Status:</strong>
+          This is an early target roadmap. It is planning material, not a product promise or
+          compliance claim.
+        </section>
+
+        <section class="section">
+          <p class="eyebrow">Milestones</p>
+          <h2>Near-term build order</h2>
+          <div class="cards">
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/milestone/9">
+              <span>M1: DHL Retrofit Beta</span>
+              <p>Standalone ESP-based retrofit target for existing DHL parcel boxes with local users, carrier PINs, NFC, Wiegand and local event logging.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/22">
+              <span>Firmware platform decision</span>
+              <p>Decide whether the first firmware foundation should use Arduino Core, ESP-IDF, ESPHome, a custom stack or a hybrid path.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/14">
+              <span>Lock retrofit strategy</span>
+              <p>Explore whether the old lock unit is removed, gutted, reused or replaced by a simpler OpenParcelLock-style mechanism.</p>
+            </a>
+            <a class="card" href="https://github.com/OpenParcelBox/openparcelbox/issues/17">
+              <span>Standalone power budget</span>
+              <p>Estimate solar, battery, sleep behavior, reader current and lock actuation power before hardware assumptions harden.</p>
+            </a>
+          </div>
+        </section>
+
+        <section class="section split feature-split">
+          <div>
+            <p class="eyebrow">Next practical step</p>
+            <h2>Document the real parts.</h2>
+            <p>
+              The next roadmap work starts with photos, measurements and component notes:
+              parcel box, lock area, keypad/RFID module, ESP board, sensors, cable paths and
+              power modules.
+            </p>
+          </div>
+          <div>
+            <p class="eyebrow">Later platform work</p>
+            <h2>Bridge, cloud and carrier APIs come later.</h2>
+            <p>
+              M1 must work locally without cloud, bridge, Home Assistant or internet. Those
+              integrations are important, but they should build on a reliable local foundation.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          OpenParcelBox is open source and local-first. The optional cloud is convenience,
+          not a requirement.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
