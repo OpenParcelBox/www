@@ -754,6 +754,27 @@ footer p {
   box-shadow: 0 22px 54px rgba(7, 27, 34, 0.11);
 }
 
+.section-heading {
+  max-width: 920px;
+}
+
+.section-heading p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.carrier-neutral {
+  padding-top: 12px;
+}
+
+.case-cards .card {
+  min-height: 240px;
+}
+
+.why-open {
+  margin-top: 18px;
+}
+
 .split {
   display: grid;
   grid-template-columns: 1fr 1fr;
