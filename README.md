@@ -8,7 +8,7 @@ https://openparcelbox.org
 
 Fallback GitHub Pages URL:
 
-https://openparcelbox.github.io
+https://openparcelbox.github.io/www/
 
 ## DNS
 
